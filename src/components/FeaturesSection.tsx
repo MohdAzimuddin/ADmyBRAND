@@ -1,23 +1,3 @@
-// import { features } from '@/data/features';
-
-// const FeaturesSection = () => {
-//   return (
-//     <section className="py-16">
-//       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-//         {features.map((feature) => (
-//           <FeatureCard 
-//             key={feature.id}
-//             icon={feature.icon}
-//             title={feature.title}
-//             description={feature.description}
-//             tag={feature.tag}
-//           />
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
 "use client";
 import React, { useEffect, useRef } from 'react';
 import { cn } from '@/lib/utils';

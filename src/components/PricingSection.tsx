@@ -1,28 +1,3 @@
-// import { pricingTiers } from '@/data/pricing';
-
-// const PricingSection = () => {
-//   return (
-//     <section className="py-16 bg-gray-50">
-//       <div className="container mx-auto px-4">
-//         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-//           {pricingTiers.map((tier) => (
-//             <PricingCard
-//               key={tier.id}
-//               name={tier.name}
-//               price={tier.price}
-//               description={tier.description}
-//               features={tier.features}
-//               isPopular={tier.isPopular}
-//               ctaText={tier.ctaText}
-//               mostPopularText={tier.mostPopularText}
-//             />
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
 "use client";
 import React, { useState } from 'react';
 import { pricingTiers } from '@/data/pricing';
