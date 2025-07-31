@@ -41,32 +41,68 @@ This landing page serves as a promotional website for an AI-powered marketing to
 
 ## 📁 Folder Structure
 
-\`\`\`
+Got it! Here's the corrected and **detailed folder structure** based on your actual project (from the ZIP file you uploaded), including all relevant files and sections to help reviewers or collaborators understand your architecture.
 
+---
+
+### 📁 **Folder Structure (Detailed)**
+
+```
 src/
-├── app/
-│   ├── api/contact/        # Contact form API route
-│   ├── layout.tsx          # Main app layout
-│   ├── page.tsx            # Main landing page
-│   └── globals.css         # Global styles
-├── components/
-│   ├── ui/                 # Reusable UI components
-│   ├── HeroSection.tsx     # Top banner section
-│   ├── FeaturesSection.tsx # Product features
-│   ├── PricingSection.tsx  # Pricing plans
-│   ├── TestimonialsSection.tsx
-│   ├── FAQSection.tsx
-│   ├── ContactForm.tsx
-│   └── Footer.tsx
-├── data/                   # Static content (features, pricing, etc.)
-│   ├── features.ts
-│   ├── pricing.ts
-│   ├── testimonials.ts
-│   └── faq.ts
+├── app/                                 # Next.js App Router entry point
+│   ├── api/
+│   │   └── contact/
+│   │       └── route.ts                 # API handler for contact form
+│   ├── layout.tsx                       # Root layout with HTML structure
+│   ├── page.tsx                         # Main landing page
+│   └── globals.css                      # Tailwind + global styling
+│
+├── components/                          # All custom React components
+│   ├── ui/                              # Reusable UI elements
+│   │   ├── accordion.tsx                # Accordion component (FAQ section)
+│   │   ├── avatar.tsx                   # Avatar for testimonials
+│   │   ├── badge.tsx                    # Badge/label component
+│   │   ├── button.tsx                   # Custom button component
+│   │   ├── card.tsx                     # Card layout (used in features, pricing, etc.)
+│   │   ├── input.tsx                    # Input field component
+│   │   ├── LoadingSpinner.tsx          # Loading spinner for async feedback
+│   │   └── modal.tsx                    # Modal dialog component
+│
+│   ├── ContactForm.tsx                  # Contact form with validation
+│   ├── FAQSection.tsx                   # Frequently Asked Questions section
+│   ├── FeaturesSection.tsx             # Product features section
+│   ├── Footer.tsx                       # Site footer with links and info
+│   ├── Header.tsx                       # Top navigation/header bar
+│   ├── HeroSection.tsx                  # Hero section with CTA
+│   ├── PricingSection.tsx              # Pricing plans and comparison
+│   └── TestimonialsSection.tsx         # Testimonials carousel
+│
+├── data/                                # Static content used in page sections
+│   ├── faq.ts                           # FAQ questions/answers
+│   ├── features.ts                      # List of product features
+│   ├── pricing.ts                       # Pricing tier data
+│   ├── testimonials.ts                  # Testimonials/reviews
+│
 ├── lib/
-│   └── utils.ts            # Utility functions
+│   └── utils.ts                         # Utility functions (e.g., email validation)
+│
+├── README.md                            # Project documentation (to be added)
+└── tsconfig.json                        # TypeScript config (in root)
+```
 
-\`\`\`
+---
+
+### 🔍 Summary of Structure
+
+* **`app/`** → Handles routing and global layout/styling using App Router.
+* **`components/`** → Modular React components; organized into:
+
+  * `ui/` for atomic design system components
+  * top-level feature-specific components
+* **`data/`** → All content (features, pricing, testimonials, etc.) is stored as JS/TS modules.
+* **`lib/`** → Utility functions for validation and helpers.
+* **`api/contact/route.ts`** → Backend route using Next.js API for contact form submissions.
+
 
 ---
 
