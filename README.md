@@ -41,8 +41,6 @@ This landing page serves as a promotional website for an AI-powered marketing to
 
 ## 📁 Folder Structure
 
-\`\`\`
-
 src/
 ├── app/
 │   ├── api/contact/        # Contact form API route
@@ -66,7 +64,7 @@ src/
 ├── lib/
 │   └── utils.ts            # Utility functions
 
-\`\`\`
+
 
 ---
 
