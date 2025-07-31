@@ -39,15 +39,11 @@ This landing page serves as a promotional website for an AI-powered marketing to
 
 ---
 
-## 📁 Folder Structure
-
-Got it! Here's the corrected and **detailed folder structure** based on your actual project (from the ZIP file you uploaded), including all relevant files and sections to help reviewers or collaborators understand your architecture.
-
----
 
 ### 📁 **Folder Structure (Detailed)**
 
 ```
+
 src/
 ├── app/                                 # Next.js App Router entry point
 │   ├── api/
@@ -103,7 +99,6 @@ src/
 * **`lib/`** → Utility functions for validation and helpers.
 * **`api/contact/route.ts`** → Backend route using Next.js API for contact form submissions.
 
-
 ---
 
 ## 📄 AI Usage Report
@@ -113,9 +108,16 @@ src/
 - **DeepSeek** – TypeScript component generation, Tailwind layout scaffolding, form logic assistance
 
 ### 🧠 Sample Prompts Used
-1. *"Generate a responsive SaaS landing page layout using Tailwind and Next.js App Router"*
-2. *"Create a 3-tier pricing card section with hover animations and icons using TypeScript and Tailwind"*
-3. *"Build a validated contact form with a serverless API handler in Next.js 14"*
+Create a stunning HeroSection for "ADmyBRAND AI Suite" SaaS landing page using React + TypeScript + Tailwind CSS. Include:
+- Compelling headline about AI-powered marketing automation
+- Persuasive subtext highlighting key benefits
+- Primary and secondary CTA buttons (Start Free Trial, Watch Demo)
+- Hero image/illustration placeholder with modern styling
+- Background gradient with glassmorphism effects
+- Scroll-triggered animations (fade-in, slide-up)
+- Mobile-responsive with proper text scaling
+- TypeScript interfaces
+Use custom Button component and ensure conversion-focused copy.
 
 ### 🧮 AI vs Manual Work Breakdown
 - **AI-assisted:** ~70%
