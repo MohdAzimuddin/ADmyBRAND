@@ -1,4 +1,4 @@
-```markdown
+
 # ADmyBRAND AI Suite – Modern SaaS Landing Page 🚀
 
 A beautifully crafted, responsive SaaS landing page for the fictional **ADmyBRAND AI Suite**, developed as part of the ADmyBRAND Coder Challenge. Built using **Next.js 14 App Router**, **Tailwind CSS**, and AI-driven development techniques.
@@ -41,7 +41,7 @@ This landing page serves as a promotional website for an AI-powered marketing to
 
 ## 📁 Folder Structure
 
-```
+\`\`\`
 
 src/
 ├── app/
@@ -66,7 +66,7 @@ src/
 ├── lib/
 │   └── utils.ts            # Utility functions
 
-````
+\`\`\`
 
 ---
 
@@ -95,22 +95,22 @@ src/
 
 ### 1. Clone the Repository
 
-```bash
+\`\`\`bash
 git clone https://github.com/YOUR_USERNAME/admybrand-ai-suite.git
 cd admybrand-ai-suite
-````
+\`\`\`
 
 ### 2. Install Dependencies
 
-```bash
+\`\`\`bash
 npm install
-```
+\`\`\`
 
 ### 3. Run the Development Server
 
-```bash
+\`\`\`bash
 npm run dev
-```
+\`\`\`
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -128,9 +128,9 @@ This project is live and deployed via [Vercel](https://vercel.com/).
 
 This project was built for the **ADmyBRAND AI Coder Hiring Challenge** and can be showcased in portfolios.
 
-© 2025 Mohd Azeemuddin
-Email: [sfsuper2020@gmail.com](mailto:sfsuper202@gmail.com)
-GitHub: \[https://github.com/MohdAzimuddin]
+© 2025 Mohd Azeemuddin  
+Email: [sfsuper2020@gmail.com](mailto:sfsuper2020@gmail.com)  
+GitHub: [https://github.com/MohdAzimuddin](https://github.com/MohdAzimuddin)
 
 ---
 
@@ -142,7 +142,3 @@ Thanks to:
 * [Tailwind CSS](https://tailwindcss.com/)
 * [Claude.ai](https://claude.ai/)
 * [DeepSeek AI](https://deepseek.com/)
-
-```
-
-
